@@ -1,0 +1,42 @@
+HTTP Request Message
+	• Request Line (CRLF –terminated line consisting of three space-separated values)
+		o Methods
+		o Request URI
+		o HTTP Protocol version
+	• Message Headers (general, request, and/or entity headers)
+		o HTTP 1.1 requires at least the Host request header to be provided
+	• Empty Line (CRLF)
+	• Message Body, a.k.a payload (optional)
+
+HTTP Response Message
+	• Status Line (CRLF – terminated line consisting of three space-separated values)
+		o HTTP Protocol Version
+		o Status Code
+		o Reason Phrase
+	• Message Headers (general, request, and/or entity headers)
+	• Empty Line
+	• Message Body (optional)
+
+HTTP Request Methods
+	• Standard Methods
+		o GET – transfer a current selected representation of the resource identified by the Request URI, the retrieved resource is returned in the message body of the response as an entity
+		o HEAD – same as GET, except that the entity not included in response
+			   – Used to retrieve metadata about the entity implied by the requests w/o transferring the entity itself
+		o POST – perform resource specific processing of the entities enclosed in the message body by the 
+		o PUT – store enclosed entity in the message body under 
+		o DELETE – remove the resource associated with the
+		o OPTIONS –  
+		o TRACE – request a loop-back to the request message 
+				– Typically used for testing/diagnostics of the request/response chain
+		o CONNECT – request the establishment of a tunnel destination
+	• Extension Methods
+		o e.g. WebDAV (RFC 4918)
+		o PROPFIND, PROPATCH, MKCOL, COPY, MOVE, LOCK, UNLOCK
+	• Safe Methods
+		o Doesn’t affect the changes in the server side
+		o e.g. GET, HEAD, OPTIONS, TRACE
+	• Idempotent Methods
+		o If you use it once and use it again it will give the same result
+		o e.g. GET, HEAD, PUT, DELETE
+	• Cacheable Methods
+		o The response that we get will/can be cached
