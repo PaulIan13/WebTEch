@@ -1,0 +1,32 @@
+Hypertext Markup Language
+- Language used to markup documents in the WWW
+	* Structure 
+	* Presentation 
+- Versions
+	* HTML 2.0, 3.2, 4.0
+	* HTML 4.01
+		> Strict – deprecated
+		> Transitional – still make use the deprecated
+		> Frameset – using frames
+	* HTML 5 (working draft)
+- Head 
+	> title, base, link, meta, style, script
+- Body
+	* Grouping elements (div, span)
+	* Headings (h1 – h6)
+	* Paragraphs, line breaks, horizontal rules (p , br , hr)
+	* Lists (ul, ol, li, dl, dt, dd, dir, menu)
+	* Tables (table, th, tr, td, thead, tfoot, tbody, colgroup, col)
+	* Structured text
+		> Phrase elements (em, strong, dfn, code, samp, kbd, var, cite, abbr, acronym)
+		> Quotations (blockquote, q)
+		> Subscripts and superscripts (sub, sup)
+		> Preformatted texts (pre)
+	* Font styles and alignments (tt, i, b, big, small, strike, s, u, font, basefont, center)
+	* Document changes (ins, del)
+	* Links and anchors (a)
+	* Objects, images, applets (object, img, param, applet)
+	* Scripts (script, noscript)
+	* Miscellaneous (address, bdo)
+	* Frames, noframes, iframe
+	* Frameset (for frameset DTD)
