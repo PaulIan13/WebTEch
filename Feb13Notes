@@ -1,0 +1,108 @@
+Message Headers
+	• General Header Fields
+	• Request Header Fields
+	• Response Header Fields
+	• Entity Header Fields
+
+	• General Header Fields
+		o Cache-control
+		o Connection
+		o Date
+		o Pragma
+		o Trailer
+		o Transfer-Encoding
+		o Upgrade
+		o Via
+		o Warning  
+	• Request Header Fields
+		o Accept
+		o Accept-Charset
+		o Accept-Encoding
+		o Accept-Language
+		o Authorization
+		o Expect
+		o From
+		o Host
+		o If-Match 
+		o If-Modified-Since
+		o If-None-Match
+		o If-Range
+		o If-Unmodified-Since
+		o Max-Forwards
+		o Proxy-Authorization
+		o Range
+		o Referer
+		o TE
+		o User-Agent
+	• Response Header Fields
+		o Accept Ranges
+		o Age
+		o ETag
+		o Location
+		o Proxy-Authenticate
+		o Retry-After
+		o Server
+		o Vary
+		o WWW-Authenticate
+	• Entity Header Fields
+		o Allow
+		o Content-Encoding
+		o Content-Language
+		o Content-Length
+		o Content-Location
+		o Content MD5 
+			• Message Digest 5
+			• Computes hash resource
+		o Content-Range
+		o Content-Type
+		o Expires
+		o Last-Modified
+
+HTTP Status Codes
+• Informational (1xx)
+	o 100 Continue
+	o 101 Switching Protocols – upgrading the protocol
+• Success (2xx)
+	o 200 OK
+	o 201 Created
+	o 202 Accepted – indicate the client
+	o 203 Non-Authoritative Information – used by proxies
+	o 204 No Content 
+	o 205 Reset Content – use to tell the client to reset the form
+	o 206 Partial Content
+• Redirection (3xx)
+	o 300 Multiple Choices
+	o 301 Moved Permanently
+	o 302 Found
+	o 303 See Other
+	o 304 Not Modified – conditional request
+	o 305 Use Proxy
+	o 306 (unused)
+	o 307 Temporary Redirect
+• Client Errors (4xx)
+	o 400 Bad Request
+	o 401 Unauthorized
+	o 402 Payment Required
+	o 403 Forbidden
+	o 404 Not Found
+	o 405 Method not allowed
+	o 406 Not Acceptable
+	o 407 Proxy Authenticate-Required
+	o 408 Request Timed-Out
+	o 409 Conflict
+	o 410 Gone
+	o 411 Length Required
+	o 412 Precondition Failed
+	o 413 Request Entity Too Large
+	o 414 Request URI Too Large
+	o 415 Unsupported Media Type
+	o 416 Requested Range Not Satisfiable
+	o 417 Expectation Failed
+	o 426 Upgrade Required
+• Server Errors (5xx)
+	o 500 Internal Server Error
+	o 501 Not Implemented
+	o 502 Bad Gateway
+	o 503 Service Unavailable
+	o 504 Gateway Time-out
+	o 505 HTTP version not supported
