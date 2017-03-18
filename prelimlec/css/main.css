@@ -1,0 +1,244 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+#prelims {
+    display: none; 
+    position: fixed;
+    z-index: 1;
+    padding-top: 10px; 
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+    -webkit-animation-name: fadeIn; 
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s;
+}
+
+#animate {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: red;
+}
+
+nav {
+    text-align: center;
+
+}
+
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#cover {
+    height: 500px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    /* change this some time*/
+    text-align: center;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+span a:link {
+    text-decoration: none;
+    border-bottom: solid black;
+}
+
+#transistor {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    background-color: black;
+    display: none;
+}
+
+
+
+.content {
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+
+
+.content h1 {
+}
+
+.content .modal-bottom{
+    margin-top: 10px;
+    bottom: 0;
+    left: 0;
+    height: 20px;
+    text-align: center;
+    background-color: #1E6FC1;
+    color: white;
+    text-align: center;
+}
+
+
+
+h2 {
+    margin: 5px;
+    margin-left: 0;
+    text-align: center;
+}
+
+dd {
+    margin-left: 40px;
+}
+
+ul li , ol li{
+    margin-left: 40px;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+hr {
+    margin: 10px;
+}
+
+
+
+.nested {
+    margin-left: 40px;
+}
+
+.url {
+    text-decoration: underline;
+    color: blue;
+}
+
+.inline {
+    display: inline-block;
+}
+
+
+
+ol {
+    display: inline-block;
+}
+
+
+.buttons {
+    text-align: center;
+}
+
+.close {
+    color: white;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.modal-top {
+    padding: 2px 16px;
+    background-color: #1E6FC1;
+    color: white;
+    text-align: center;
+}
+
+.sem-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(to right, rgba(123,197,203,0), rgba(123,197,203,1));
+    width: 100%;
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+
+button {
+    background-color: #1E6FC1;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+button:hover {
+    cursor: pointer;
+    background: rgba(30,111,193,0.5);
+    border-radius: 10px;
+    transition: 500ms;
+}
+
+div#general-content, div#HTTP-content {
+    display: none;
+}
+
+ul.GHF , ul.RHF, ul.EHF , ul.ResHF,
+ul.info,ul.succ,ul.re,ul.ce,ul.se{
+    display: none;
+}
+
+li.GHF:hover , li.RHF:hover, li.EHF:hover , li.ResHF:hover {
+    cursor: pointer;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    position: static;
+    
+}
+
+img {
+    width: 500px;
+}
