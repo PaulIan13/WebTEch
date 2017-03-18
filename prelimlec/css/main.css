@@ -17,8 +17,6 @@
     overflow: auto; 
     background-color: rgb(0,0,0); 
     background-color: rgba(0,0,0,0.4);
-    -webkit-animation-name: fadeIn; 
-    -webkit-animation-duration: 0.4s;
     animation-name: fadeIn;
     animation-duration: 0.4s;
 }
@@ -32,7 +30,6 @@
 
 nav {
     text-align: center;
-
 }
 
 
@@ -49,7 +46,6 @@ a {
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    /* change this some time*/
     text-align: center;
 }
 
@@ -87,11 +83,6 @@ span a:link {
     width: 80%;
 }
 
-
-
-.content h1 {
-}
-
 .content .modal-bottom{
     margin-top: 10px;
     bottom: 0;
@@ -103,16 +94,12 @@ span a:link {
     text-align: center;
 }
 
-
-
 h2 {
+    margin-top: 10px;
     margin: 5px;
     margin-left: 0;
     text-align: center;
-}
-
-dd {
-    margin-left: 40px;
+    font-size: 50px;
 }
 
 ul li , ol li{
@@ -241,4 +228,8 @@ li.GHF:hover , li.RHF:hover, li.EHF:hover , li.ResHF:hover {
 
 img {
     width: 500px;
+}
+
+h2:hover {
+    cursor: pointer;
 }
