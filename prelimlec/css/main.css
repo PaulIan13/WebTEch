@@ -215,7 +215,9 @@ ul.info,ul.succ,ul.re,ul.ce,ul.se{
     display: none;
 }
 
-li.GHF:hover , li.RHF:hover, li.EHF:hover , li.ResHF:hover {
+li.GHF:hover , li.RHF:hover, li.EHF:hover , li.ResHF:hover ,
+li.info:hover , li.succ:hover, li.re:hover , li.se:hover,li.ce:hover
+{
     cursor: pointer;
 }
 
