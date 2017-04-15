@@ -5,15 +5,15 @@ Hypertext Markup Language
 - Versions
 	* HTML 2.0, 3.2, 4.0
 	* HTML 4.01
-		> Strict – deprecated
-		> Transitional – still make use the deprecated
-		> Frameset – using frames
+		> Strict â€“ deprecated
+		> Transitional â€“ still make use the deprecated
+		> Frameset â€“ using frames
 	* HTML 5 (working draft)
 - Head 
 	> title, base, link, meta, style, script
 - Body
 	* Grouping elements (div, span)
-	* Headings (h1 – h6)
+	* Headings (h1 â€“ h6)
 	* Paragraphs, line breaks, horizontal rules (p , br , hr)
 	* Lists (ul, ol, li, dl, dt, dd, dir, menu)
 	* Tables (table, th, tr, td, thead, tfoot, tbody, colgroup, col)
@@ -30,3 +30,8 @@ Hypertext Markup Language
 	* Miscellaneous (address, bdo)
 	* Frames, noframes, iframe
 	* Frameset (for frameset DTD)
+	* article, aside, nav, section
+	* headerm, footer
+	* main
+	* address
+	* DIV
