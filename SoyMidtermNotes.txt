@@ -1,0 +1,233 @@
+HTML
+What is HTML?
+-	Markup Language that creates web pages
+
+What is HTML’s role in modern web development?
+-	Structure and content
+-	Presentation or aesthetics
+-	Behavioral
+
+Who invented HTML?
+-	Tim Berners-Lee
+
+Who oversees the development of HTML?
+-	W3C – World Wide Web Consortium
+
+What are the versions of HTML?
+-	HTML 1.0 – 1990
+-	HTML 2.0 – RFC 1866
+-	HTML 3.0 – W3C recommended
+-	HTML 3.2
+-	HTML 4.0
+-	HTML 4.01 – 1999
+-	HTML 5.0 – 2014
+-	HTML 5.1 – 2016
+-	HTML 5.2
+
+Which documents specify the HTML standards?
+-	W3C
+
+What is the syntax of HTML?
+-	HTML elements
+
+html
+	head
+		title, base,  link, meta, style
+	body
+		article, aside, nav, section
+		header, footer
+		main
+		address
+		div
+		
+		h1, h2, h3, h4, h5, h6
+
+		p
+		hr
+		pre
+		blockquote
+
+		ol, ul
+			li
+		dl
+			dt, dd
+
+		figure
+			figcaption
+
+		a
+		em, strong, small, s
+		cite, q
+		dfn, abbr
+		ruby, rb, rt, rtc, rp
+		data, time
+		code, var, samp, kbd
+		sup, sub
+		i, b, u, mark
+		bdi, bdo
+		span
+		br, wbr
+		ins, del
+
+		table 
+			caption
+			colgroup, col
+			thead, tbody, tfoot
+				tr
+					th, td
+		form
+			label
+			input
+			button
+			select, data
+
+
+CSS
+-	Language used to specify the presentation aspects (layout and formatting)
+-	Developed by Hakon Wium Lee and Bert Bos
+-	Versions:
+  o	CSS 1 – 1996 
+  o	CSS 2.1 – 2011
+  o	CSS 3
+  
+CSS Preprocessors
+-	Sass, Less
+CSS Frameworks
+-	Bootstrap, Materilize
+Others
+-	960 Grid System, Foundation
+
+HTML/XHTML Style Sheets
+-	Author styles
+-	User Styles
+-	Users agent Styles
+Author Style
+-	External stylesheets (recommended)
+<head>
+	<link rel=”stylesheet” type=”text/css” href=”styles/mystyles.css” media = “ “ title=” “>
+</head>
+	media (all, Screen, print, speech)
+title (Normal, Small Fonts, Large Fonts, No style
+-	Embedded styles – inside the html
+<head>
+	<style type=”text/css” media=”screen 
+</head>
+-	Inline styles (within element)
+
+CSS Statements
+-	At-Rules 
+  o	@charset – allow specific charset
+  o	@import – allow other CSS files / external files
+  o	@media – media queries
+  o	@font-face
+  o	@keyframe – animation 
+  o	@page – formatting the page
+  o	@namespace
+  o	@document (firefox only support this At Rule)
+  
+-	CSS Rule Sets (a.k.a. Style Rules)
+
+-	Simple Selectors
+  o	Type selectors
+    	h1, p, body
+  o	Universal selector
+    	*
+  o	Attribute selector
+    	[attr]
+    	[attr = value]
+    	[attr ~= value]
+    	[attr |= value]
+    	[attr ^= value] - beginning
+    	[attr $= value] - ending
+    	[attr *= value] - anywhere
+  o	Class selector
+    	Using class or “.”
+  o	ID selector
+    	Uses “#”
+    	div id = “x”  div#x   #x
+  o	Pseudo-class
+    	Link pseudo class
+      •	:link
+      •	:visited
+    	User action pseudo-class
+      •	:hover
+      •	:active
+      •	:focus
+    	Target pseudo class
+      •	:target
+    	Language pseudo class
+      •	:lang()
+    	UI elements state pseudo class
+      •	:enabled
+      •	:disabled
+      •	:checked
+      •	:indeterminate
+    	Structural pseudo classes
+      •	:root
+      •	:first-child
+      •	:last-child
+      •	:only-child
+      •	:nth-child()
+      •	:nth-last-child()
+      •	:first-of-type
+      •	:last-of-type
+      •	:only-of-type
+      •	:nth-of-type
+      •	:nth-last-of-type()
+      •	:empty
+    	Negation pseudo class
+      •	:not()
+  o	Grouping selector
+    	Uses “,” to group
+  o	Combinators
+    	Descendant combinator – uses white spaces such as space, tab, line feed, carriage return, form feed
+    	Child combinator – uses greater than sign “>”
+    	Sibling combinator
+      •	Adjacent sibling combinator – uses plus sign “+”
+      •	General sibling combinator – uses tilde sign “~”
+  o	Pseudo elements
+    	::first-letter (CSS3), : first-letter
+    	::first-line (CSS3), : first-line
+    	::before (CSS3), : before
+    	::after (CSS3), : after
+
+CSS Rule Precedence
+-	By Origin and Importance - !important
+  o	User agent important declarations
+  o	User important declarations
+  o	Author important declaration
+  o	Author normal declaration
+  o	User normal declaration
+  o	User agent normal declaration
+-	By Specifity
+  o	Inline style
+  o	(1) Number of ID selector
+  o	(2) Number of class selectors, attribute selectors, pseudo-classes
+  o	(3) Number of type selectors and pseudo elements
+-	By Order
+
+CSS Declarations
+-	Properties
+  o	Short hand properties
+  o	Vendor-specific extensions (a.k.a. vendor prefixes)
+-	Values
+  o	Keywords
+  o	Numbers (integers and reals in decimal notation)
+  o	Dimensions 
+    	Length, angle, duration, frequency, resolution
+      •	Font-relative: em, ex, ch, rem
+      •	Viewport-percentage: vw, vh, vmin, vmax
+      •	Absolute lengths: cm, mm, q, in, pt, pc, px
+      •	Angle
+        o	deg, grad, rad, turn
+      •	Duration
+        o	s, ms
+      •	Frequency 
+        o	hz, khz
+      •	Resolution
+        o	dpi, dpcm, dppx
+    	percentage
+    	URL and URIs
+    	Colors
+    	Strings
+    	Functions: calc(), attr(), counter(), counters(), linear-gradient() radial()
