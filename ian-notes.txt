@@ -1,0 +1,88 @@
+Cascading Style Sheets 
+
+Version 
+
+	> CSS 1 - 1996
+	> CSS 2.1- june 2011 - ian hiekson
+	> CSS 3 - Divided by Module
+CSS Preprocessors - extension of CSS 
+CSS Framework - Bootsrap Materialize 
+HTML / XHTML STYLESHEETS
+> Author Styles - Author is the maker of the website who embeds all the styles of a website in CSS files or inline into the html. 
+> User Styles - can ve provided by person visiting the web.
+> User agent Style - browser gives simple designs.
+
+.Author Stlyes
+
+ > external stylesheets 
+	ex. <link rel = "stylesheet" type= "text/CSS href= styles/mystyles.css">
+ > media 
+   Diff media type ---> Screen
+			Print
+			Speech
+ >title
+   Diff title type----> Normal
+			Large Font
+			Small Font
+
+. Embeded styles
+
+	<head>
+		<style type = "text/css" media screen and (min-width : 500 px ")>
+	body { width : 90%}
+		</Style>
+
+		<Style type = "text/css">
+		@ import url ("mystles.css")
+		
+
+Css statements 
+at rules
+
+	@ charset
+	@ import
+	@ media
+	@ font-face
+  	@ keyframes
+	@ pages
+CSS Rule Sets
+Declaration block -COnsist of a selector ff bt brace enclosed 
+		ex body { 
+			color: blue
+			dispaly: block
+		}
+
+Property declarations
+Property name
+Propery values
+
+CSS selector - used as a condition
+Selector Syntax one/more sequence of simple selector seperated by combinators w/ 1 psuedo-elements possibly appended to the las sequence
+	ex div : xyz > p# abc + Ul :: after
+		NOTE: COMBINATORS are > and +
+Simple -alwats starts w/a type selector / a universal selectors
+	- cannot contain other type selectors/universal
+
+Type selector 
+	ex h, p
+Universal selector - matches anything
+	Ex *
+attribute selector- selector is used to select elements with a specified attribute.
+	ex [attr^ = value] ---> starts
+	   [attr$ = value] ---> ends
+	   [attr* = value] ---> anywhere
+class selector -  class selectors match an element based on the contents of the element's class attribute. 
+	
+	classs xyz {
+  	background-color: DodgerBlue;
+	}
+
+Id selector - targets id attrib
+	<div id = "x">
+Pseudo class -  pseudo-class is used to define a special state of an element.
+	Dynamic class
+	> link pseudo class --> unvisited link
+	> vited ---> visited link
+	>hover ---> if pointer hover elements
+	> active ---> click element 
+	> focus --> where the focus
