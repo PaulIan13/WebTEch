@@ -1,0 +1,32 @@
+JavaScript (client)
+Linked
+<Script type = 'text/javascript' src = 'script.js'> </script>
+
+.Console.log ---> top level
+.function
+.defer --> fetches java & excuted the document 
+*inline script --> A script tag without a src
+*External links ---> excuted after the document
+*async --> load particular script symentationaly w/ the document
+
+get elements by id --> s a string which can be used to uniquely identify the element, found in the HTML id attribute.
+	>innertext
+	>innerhtml
+	>textcontent
+	
+Node list --> It is a live collection, which means that changes in the DOM are reflected in the collection. 
+getelementsbyclassname --> method returns a collection of all elements in the document with the specified class name, as a NodeList object. 
+
+getelementsbyname -->  method returns a collection of all elements in the document with the specified name 
+
+getelementsbytagName --> method returns a collection of an elements's child elements with the specified tag name, as a NodeList object.
+
+
+
+querySelector() --> method returns the first element that matches a specified CSS selector(s) in the document.
+
+var p = document. querySelector(p) - retive a selector that it is defied 
+
+Matches Method
+
+ex p.matches --> method searches a string for a match against a regular expression, and returns the matches, as an Array object.
