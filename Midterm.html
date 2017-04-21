@@ -1,0 +1,228 @@
+<html>
+	<head>
+		<title>Midterm Notes</title>
+	</head>
+<body>
+	<h1>Hypertext Markup Language</h1>
+<ul>
+	<li>Language used to markup documents in the WWW</li>
+		<ul>
+			<li>Structure</li>
+			<li>Presentation</li>
+		</ul>
+	<li>Versions</li>
+		<ul>
+			<li>HTML 2.0, 3.2, 4.0</li>
+			<li>HTML 4.01</li>
+				<ul>
+					<li>Strict – deprecated</li>
+					<li>Transitional – still make use the deprecated</li>
+					<li>Frameset – using frames</li>
+				</ul>
+			<li>HTML 5 (working draft)</li>
+		</ul>
+	<li>Head</li>
+		<ul>
+			<li>title, base, link, meta, style, script</li>
+		</ul>
+	<li>Body</li>
+		<ul>
+			<li>Grouping elements (div, span)</li>
+			<li>Headings (h1 – h6)</li>
+			<li>Paragraphs, line breaks, horizontal rules (p , br , hr)</li>
+			<li>Lists (ul, ol, li, dl, dt, dd, dir, menu)</li>
+			<li>Tables (table, th, tr, td, thead, tfoot, tbody, colgroup, col)</li>
+			<li>Structured text</li>
+			<ul>
+				<li>Phrase elements (em, strong, dfn, code, samp, kbd, var, cite, abbr, acronym)</li>
+				<li>Quotations (blockquote, q)</li>
+				<li>Subscripts and superscripts (sub, sup)</li>
+				<li>Preformatted texts (pre)</li>
+			</ul>
+			<li>Font styles and alignments (tt, i, b, big, small, strike, s, u, font, basefont, center)</li>
+			<li>Document changes (ins, del)</li>
+			<li>Links and anchors (a)</li>
+			<li>Objects, images, applets (object, img, param, applet)</li>
+			<li>Scripts (script, noscript)</li>
+			<li>Miscellaneous (address, bdo)</li>
+			<li>Frames, noframes, iframe</li>
+			<li>Frameset (for frameset DTD)</li>
+			<li>article, aside, nav, section</li>
+			<li>headerm, footer</li>
+			<li>main</li>
+			<li>address</li>
+			<li>DIV</li>
+		</ul>
+</ul>
+<h2>XHTML</h2>
+<ul>
+	<li>Author Style</li>
+	<li>User Style</li>
+	<li>User Agent Style</li>
+</ul>
+<h1>Cascading Style Sheets</h1>
+<ul>
+	<li>Language used to specify the presentation aspects (i.e. layout and formatting of structurally marked up (e.g. HTML, XML, XHTML, SVG, etc.) document).</li>
+	<li>Developed by <b>Hakon Wium Lie</b> (HTML Cascading Style Sheets / CHSS) and <b>Bert Bos</b> (Stream-based Style Sheet Proposal/ SSP)</li>
+	<li>Version:</li>
+	<ul>
+		<li>CSS 1 (December 17, 1996)</li>
+		<li>CSS 2.1 (June 7, 2011)</li>
+		<li>CSS 3 (structural semantic markup / modularizes CSS 2.1)</li>
+	</ul>
+	<li>CSS preprocessors, CSS frameworks</li>
+	<ul>
+		<li>sass, less ago grid system, bootstrap, foundation, materialize, etc.</li>
+	</ul>
+</ul>
+<h2>Reset CSS</h2>
+	<ul> Standard Style Sheet that contains all the default
+	</ul>
+<h2>CSS Statement</h2>
+<ul>
+	<li>@ charset</li>
+	<li>@ import</li>
+	<li>@ media</li>
+	<li>@ font-face</li>
+	<li>@ keyframe</li>
+	<li>@ page</li>
+</ul>	
+<h2>CSS Rule Sets</h2> <h3>(a.k.a CSS Rules, Style Rules)</h3>
+<ul>
+	<li>Selector, Declaration block, Property declarations, Property name, Property value.</li>
+	<li>Selector-Structure used as a condition in CSS.</li>
+	<li>Selector Syntax-chain of one or more sequence of simple selectors separated by combinators with one pseudo-element possibly appended to the last sequence.</li>
+	<li>Simple Selector</li>
+	<ul>
+		<li>Type Selector.</li>
+		<li>Universal Selector – matches everything</li>
+		<li>Attribute Selector</li>
+		<li>Class Selector</li>
+		<li>ID Selector</li>
+		<li>Pseudo class</li>
+		<ul>
+			<li>Dynamic Pseudo-classes</li>
+			<ul>
+				<li>Link pseudo-classes</li>
+				<ul>
+					<li>:link</li>
+					<li>:visited</li>
+				</ul>
+				<li>User action pseudo-classes</li>
+				<ul>
+					<li>:hover</li>
+					<li>:active</li>
+					<li>:focus</li>
+				</ul>
+			</ul>
+			<li>Target pseudo</li>
+			<ul>
+				<li>:target <sup>css3</sup></li>
+			</ul>
+			<li>Language Pseudo-class</li>
+			<ul>
+				<li>:lang()</li>
+			</ul>
+			<li>UI Element States pseudo-classes</li>
+			<ul>
+				<li>:enabled<sup>css3</sup></li>
+				<li>:disabled<sup>css3</sup></li>
+				<li>:checked<sup>css3</sup></li>
+				<li>:indeterminate<sup>css3</sup></li>
+			</ul>
+			<li>Structural pseudo-classes</li>
+			<ul>
+				<li>:root<sup>css3</sup></li>
+				<li>:first-child</li>
+				<li>:last − child<sup>css3</sup></li>
+				<li>:only − child<sup>css3</sup></li>
+				<li>:nth − child()<sup>css3</sup></li>
+				<li>:nth − last − child()<sup>css3</sup></li>
+				<li>:first − of − type<sup>css3</sup></li>
+				<li>:last − of − type<sup>css3</sup></li>
+				<li>:only − of − type<sup>css3</sup></li>
+				<li>:nth − of − type()<sup>css3</sup></li>
+				<li>:nth − last − of − type()<sup>css3</sup></li>
+				<li>:emply<sup>css3</sup></li>
+			</ul>
+			<li>Negation pseudo-class</li>
+			<ul>
+				<li>:not()<sup>css3</sup></li>
+			</ul>
+		</ul>
+		<li>Combinators</li>
+		<ul>
+			<li>Descendant combinator (whites-space, i.e. space, tab, carriage return, form feed)</li>
+			<li>Child combinatory (>)</li>
+			<li>Sibling combinators</li>
+			<ul>
+				<li>Adjacent sibling combinatory(+) – succession</li>
+				<li>General sibling combinatory (-) css3 – follows particular siblings</li>
+			</ul>
+		</ul>
+		<li>Pseudo-elements</li>
+			<ul>
+				<li>::first − letter<sup>css3</sup>, :first-letter</li>
+				<li>::first − line<sup>css3</sup>, :first-line</li>
+				<li>::before<sup>css3</sup>, :before</li>
+				<li>::after<sup>css3</sup>, :after</li>
+			</ul>
+	</ul>
+</ul>
+<h2>CSS Rule Preferences</h2>
+<ul>
+	<li>By origin and importance</li>
+	<ul>
+		<li>User agent important declarations</li>
+		<li>User important declarations</li>
+		<li>Author important Declarations</li>
+		<li>Author normal Declarations</li>
+		<li>User normal Declarations</li>
+		<li>User agent normal Declarations</li>
+	</ul>
+	<li>By specifcation</li>
+	<ul>
+		<li>Inline Style (more specific)</li>
+		<li>Number of ID selectors</li>
+		<li>Number of class selectors, attribute selectors, and pseudo-classes</li>
+		<li>Number of type selectors and pseudo-elements</li>
+	</ul>
+	<li>By order</li>
+</ul>
+<h2>CSS Declaration</h2>
+<ul>
+	<li>Properties</li>
+	<ul>
+		<li>Shorthand properties</li>
+		<li>Vendor-specific extensions (a.k.a vendor prefixes)</li>
+	</ul>
+	<li>Values</li>
+	<ul>
+		<li>Keywords</li>
+		<li>Numbers (integer and reals in decimal notation)</li>
+		<li>Dimensions</li>
+		<ul>
+			<li>Length units:</li>
+			<ul>
+				<li>Font-relative: em, ex, ch, rem</li>
+				<li>Viewport-percentage: vw,vh,vmin,vmax</li>
+				<li>Absolute lengths: cm, mm, q, in, pt, pc, px</li>
+			</ul>
+			<li>Angle units: deg, grad, rad, turn</li>
+			<li>Duration units: s, ms</li>
+			<li>Frequency Units: hz, khz</li>
+			<li>Resolution units: dpi, dpcm, dppx</li>
+			<li>Percentages</li>
+			<li>URLs and URIs</li>
+			<li>Colors</li>
+			<li>Strings</li>
+			<li>Functions:</li>
+			<ul>
+				calc(), attr(), counter(), counters(), linear-gradient(), 
+				radial-gradient(), translate(), scale(), rotate(), etc.  
+			</ul>
+		</ul>
+	</ul>
+</ul>
+</body>
+</html>
