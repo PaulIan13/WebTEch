@@ -15,9 +15,9 @@
 			<li>HTML 2.0, 3.2, 4.0</li>
 			<li>HTML 4.01</li>
 				<ul>
-					<li>Strict – deprecated</li>
-					<li>Transitional – still make use the deprecated</li>
-					<li>Frameset – using frames</li>
+					<li>Strict - deprecated</li>
+					<li>Transitional - still make use the deprecated</li>
+					<li>Frameset - using frames</li>
 				</ul>
 			<li>HTML 5 (working draft)</li>
 		</ul>
@@ -28,7 +28,7 @@
 	<li>Body</li>
 		<ul>
 			<li>Grouping elements (div, span)</li>
-			<li>Headings (h1 – h6)</li>
+			<li>Headings (h1 - h6)</li>
 			<li>Paragraphs, line breaks, horizontal rules (p , br , hr)</li>
 			<li>Lists (ul, ol, li, dl, dt, dd, dir, menu)</li>
 			<li>Tables (table, th, tr, td, thead, tfoot, tbody, colgroup, col)</li>
@@ -95,7 +95,7 @@
 	<li>Simple Selector</li>
 	<ul>
 		<li>Type Selector.</li>
-		<li>Universal Selector – matches everything</li>
+		<li>Universal Selector - matches everything</li>
 		<li>Attribute Selector</li>
 		<li>Class Selector</li>
 		<li>ID Selector</li>
@@ -134,15 +134,15 @@
 			<ul>
 				<li>:root<sup>css3</sup></li>
 				<li>:first-child</li>
-				<li>:last − child<sup>css3</sup></li>
-				<li>:only − child<sup>css3</sup></li>
-				<li>:nth − child()<sup>css3</sup></li>
-				<li>:nth − last − child()<sup>css3</sup></li>
-				<li>:first − of − type<sup>css3</sup></li>
-				<li>:last − of − type<sup>css3</sup></li>
-				<li>:only − of − type<sup>css3</sup></li>
-				<li>:nth − of − type()<sup>css3</sup></li>
-				<li>:nth − last − of − type()<sup>css3</sup></li>
+				<li>:last-child<sup>css3</sup></li>
+				<li>:only-child<sup>css3</sup></li>
+				<li>:nth-child()<sup>css3</sup></li>
+				<li>:nth-last-child()<sup>css3</sup></li>
+				<li>:first-of-type<sup>css3</sup></li>
+				<li>:last-of-type<sup>css3</sup></li>
+				<li>:only-of-type<sup>css3</sup></li>
+				<li>:nth-of-type()<sup>css3</sup></li>
+				<li>:nth-last-of-type()<sup>css3</sup></li>
 				<li>:emply<sup>css3</sup></li>
 			</ul>
 			<li>Negation pseudo-class</li>
@@ -156,14 +156,14 @@
 			<li>Child combinatory (>)</li>
 			<li>Sibling combinators</li>
 			<ul>
-				<li>Adjacent sibling combinatory(+) – succession</li>
-				<li>General sibling combinatory (-) css3 – follows particular siblings</li>
+				<li>Adjacent sibling combinatory(+) - succession</li>
+				<li>General sibling combinatory (-) css3 - follows particular siblings</li>
 			</ul>
 		</ul>
 		<li>Pseudo-elements</li>
 			<ul>
-				<li>::first − letter<sup>css3</sup>, :first-letter</li>
-				<li>::first − line<sup>css3</sup>, :first-line</li>
+				<li>::first - letter<sup>css3</sup>, :first-letter</li>
+				<li>::first - line<sup>css3</sup>, :first-line</li>
 				<li>::before<sup>css3</sup>, :before</li>
 				<li>::after<sup>css3</sup>, :after</li>
 			</ul>
@@ -224,61 +224,74 @@
 		</ul>
 	</ul>
 </ul>
-<p>
-	<li><b>04-03-17 (MONDAY)</b></li>
+
+<h2>JavaScript</h2>
+<ul>
+	<li>Functions</li>
+	<ul>
+		<li>- abstraction of code blocks</li>
+		<li>- function expression</li>
+		<li>- arrow syntax</li>
+		<li>- recursive</li>
+		<li>- functions can be nested</li>
+		<li>- 'this', 'arguments', and 'apply'</li>
+		<li>- functions can have default values</li>
+		<li>- function rest parameters</li>
+	</ul>
 	<li>Arrays</li>
-<ul>
-	<li>- () = Object Constructor</li> 
-	<li>- [] = Literal Syntax </li>
-		<ul>- The element of an array can also be an array and reindexing is available. </ul><ul>
-		-It can also have mixed elements inside the array. </ul>
-	<li>Array Destructuring</li>
-		<ul>-Assigning an element in the array to a specific variable.</ul>
-		<ul>-Elements can be skipped using a comma(',') </ul>
-	<li>Array indexes can be non-contiguous</li>
-	<li>You can also change the length of an array ex: array.length=10</li>
-	<li>Methods</li>
-	<li>Mutator Methods</li>
-		<ul>Mutates or changes the array accessor method</ul>
-	<li>Accessor Methods</li>
-		<ul>Does not modify the elements in the array but returns a representation in it</ul>
-	<li>Iterator Methods</li>
-		<ul>Iterated the array , specifies action for each element in the array</ul>
-	<ul>Some examples of array commands</ul>
-		<li>array['example'] = 4</li>
-			<ul>- Assigns a value</ul>
-		<li>array.push</li>
-			<ul>- Adds element at the end of the array</ul>
-		<li>array.shift</li>
-			<ul>- Shifts positions down</ul>
-		<li>array.unshift</li>
-			<ul>- Inserts an element infront of the array</ul>
-		<li>array.reverse</li>
-			<ul>- Reverses the elements in the array</ul>
-		<li>array.splice(2,3)</li>
-			<ul>- The first element indicates the starting point where it will be spliced while the second element indicates the number of elements to be spliced</ul>
-		<li>array.length=''</li>
-			<ul>sets the length of the array to whatever value is provided</ul>
-		<li>array.join</li>
-			<ul>Joins the elements as strings</ul>
-		<li>array.every</li>
-			<ul>checks every element in the array if it satisfies the condition given</ul>
-</ul>
+	<ul>
+		<li>- () = Object Constructor</li> 
+		<li>- [] = Literal Syntax </li>
+			<ul>- The element of an array can also be an array and reindexing is available. </ul><ul>
+			-It can also have mixed elements inside the array. </ul>
+		<li>Array Destructuring</li>
+			<ul>-Assigning an element in the array to a specific variable.</ul>
+			<ul>-Elements can be skipped using a comma(',') </ul>
+		<li>Array indexes can be non-contiguous</li>
+		<li>You can also change the length of an array ex: array.length=10</li>
+		<li>Methods</li>
+		<li>Mutator Methods</li>
+			<ul>Mutates or changes the array accessor method</ul>
+		<li>Accessor Methods</li>
+			<ul>Does not modify the elements in the array but returns a representation in it</ul>
+		<li>Iterator Methods</li>
+			<ul>Iterated the array , specifies action for each element in the array</ul>
+		<ul>Some examples of array commands</ul>
+			<li>array['example'] = 4</li>
+				<ul>- Assigns a value</ul>
+			<li>array.push</li>
+				<ul>- Adds element at the end of the array</ul>
+			<li>array.shift</li>
+				<ul>- Shifts positions down</ul>
+			<li>array.unshift</li>
+				<ul>- Inserts an element infront of the array</ul>
+			<li>array.reverse</li>
+				<ul>- Reverses the elements in the array</ul>
+			<li>array.splice(2,3)</li>
+				<ul>- The first element indicates the starting point where it will be spliced while the second element indicates the number of elements to be spliced</ul>
+			<li>array.length=' '</li>
+				<ul>sets the length of the array to whatever value is provided</ul>
+			<li>array.join</li>
+				<ul>Joins the elements as strings</ul>
+			<li>array.every</li>
+				<ul>checks every element in the array if it satisfies the condition given</ul>
+	</ul>
 	<li>Objects</li>
-<ul>
-	<li>Prototype Based</li>
-	<ul>Object Properties and Methods</ul>
-		<li>student.idno='';</li>
-		<li>student['name']='';</li>
-		<li>You can also attach a function</li>
-	<ul>JSON</ul>
-		<li>-Javascript Object Notation</li>
-		<li>JSON.stringify</li>
-			<ul>Converts objects to strings</ul>
-		<li>JSON.parse('objects')</li>
-			<ul>converts strings to objects</ul>
+	<ul>
+		<li>Prototype Based</li>
+		<ul>Object Properties and Methods</ul>
+			<li>student.idno=' ';</li>
+			<li>student['name']=' ';</li>
+			<li>You can also attach a function</li>
+		<ul>JSON</ul>
+			<li>-Javascript Object Notation</li>
+			<li>JSON.stringify</li>
+				<ul>Converts objects to strings</ul>
+			<li>JSON.parse('objects')</li>
+				<ul>converts strings to objects</ul>
+	</ul>
 </ul>
 
-</p>
+
 </body>
 </html>
