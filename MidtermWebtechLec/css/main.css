@@ -6,7 +6,7 @@
 
 @font-face {
 	font-family:maven_b;
-	src:url(../font/MavenPro-Black.ttf)
+	src:url(./font/MavenPro-Black.ttf)
 }
 
 .maven-font{
@@ -131,7 +131,7 @@ body,html {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;  
-    background-image: url(../files/background.jpg);
+    background-image: url(./files/background.jpg);
 }
 
 @-webkit-keyframes fadeIn {
@@ -485,7 +485,7 @@ h1 {
 .main-body {
     width: 100%;
     height: 100%;
-    background-image: url(../files/background.jpg);
+    background-image: url(./files/background.jpg);
 }
 
 .bgimg {
